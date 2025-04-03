@@ -1,4 +1,4 @@
-/* Base Styles */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -81,10 +81,9 @@
     margin-bottom: 20px;
   }
   
-  /* Responsive Media Queries */
   @media screen and (max-width: 768px) {
     .gallery {
-      grid-template-columns: repeat(2, 1fr); /* Maintains 2 columns on smaller screens */
+      grid-template-columns: repeat(2, 1fr); 
     }
     
     .image {
@@ -92,13 +91,11 @@
       height: 100px;
     }
     
-    /* Adjust navbar layout if needed */
     .navbar {
       flex-direction: column;
       gap: 10px;
     }
     
-    /* Optional: Stack nav-list items vertically on small screens */
     .nav-list {
       flex-direction: column;
       gap: 10px;
@@ -106,12 +103,10 @@
     }
   }
   
-  /* You can add another media query for even smaller devices */
   @media screen and (max-width: 480px) {
     .gallery {
-      grid-template-columns: 1fr; /* Single column on mobile devices */
+      grid-template-columns: 1fr; 
     }
     
-    /* Further adjustments for text or image sizes can go here */
   }
   
