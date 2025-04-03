@@ -5,11 +5,17 @@
     align-items: center;
     padding: 10px;
     background-color: rgb(205, 199, 199);
+    
   }
   .navbar a{
+    
     text-decoration: none;
     color: black;
     font-weight: bold;
+  }
+  .nav-list a:hover {
+    color: rgb(255, 251, 251);
+    text-decoration: solid;
   }
   
   .image {
@@ -106,6 +112,10 @@
   @media screen and (max-width: 480px) {
     .gallery {
       grid-template-columns: 1fr; 
+    }
+    .links{
+        height:100px ;
+        width: 100px;
     }
     
   }
